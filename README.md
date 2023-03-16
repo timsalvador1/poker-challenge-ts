@@ -30,6 +30,22 @@ To run the [Jest](https://jestjs.io/) unit test, use the following command:
 yarn test
 ```
 
+### Example Run
+```
+PS C:\Users\Tim\poker-challenge-ts> npm run start
+
+> poker-challenge@1.0.0 start
+> ts-node src/index.ts       
+
+
+Player1: 263
+
+Player2: 237
+
+PS C:\Users\Tim\poker-challenge-ts> 
+```
+
+
 ```
 PS C:\Users\Tim\poker-challenge-ts> npm run test
 
