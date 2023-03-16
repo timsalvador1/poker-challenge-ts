@@ -30,6 +30,92 @@ To run the [Jest](https://jestjs.io/) unit test, use the following command:
 yarn test
 ```
 
+```
+PS C:\Users\Tim\poker-challenge-ts> npm run test
+
+> poker-challenge@1.0.0 test
+> jest
+
+ PASS  src/__tests__/index.spec.ts
+  isOnePair Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (3 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+  isTwoPair Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+  isThreeOfKind Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true
+  isFullHouse Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true
+    √ ['5S', '5D', '6D', '6C', '6H'] to be true
+  isFlush Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true (1 ms)
+    √ ['2D', '9C', 'AS', 'AH', 'AC'] to be true (1 ms)
+    √ ['2D', '9D', 'AD', '7D', 'QD'] to be true (1 ms)
+  isFourOfKind Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true
+    √ ['2D', '9C', 'AS', 'AH', 'AC'] to be true
+    √ ['2D', '9D', 'AD', '7D', 'QD'] to be true
+    √ ['2D', '2S', '2C', '2H', 'QD'] to be true (1 ms)
+  isRoyalFlush Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (3 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true (1 ms)
+    √ ['2D', '9C', 'AS', 'AH', 'AC'] to be true (1 ms)
+    √ ['2D', '9D', 'AD', '7D', 'QD'] to be true
+    √ ['2D', '2S', '2C', '2H', 'QD'] to be true
+    √ ['2D', '3S', '4C', '5H', '6D'] to be true
+    √ ['2D', '3D', '4D', '5D', '6D'] to be true (1 ms)
+    √ ['TD', 'JD', 'QD', 'KD', 'AD'] to be true (1 ms)
+  isStraight Test Suite
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true (1 ms)
+    √ ['5S', '9S', '3D', '6C', '6H'] to be true
+    √ ['5S', '9S', '9D', '6C', '6H'] to be true
+    √ ['5S', '9S', '6D', '6C', '6H'] to be true (1 ms)
+    √ ['2D', '9C', 'AS', 'AH', 'AC'] to be true
+    √ ['2D', '9D', 'AD', '7D', 'QD'] to be true
+    √ ['2D', '2S', '2C', '2H', 'QD'] to be true
+    √ ['2D', '3D', '4D', '5D', '6D'] to be true
+
+------------------|---------|----------|---------|---------|-------------------
+File              | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+------------------|---------|----------|---------|---------|-------------------
+All files         |     100 |      100 |     100 |     100 | 
+ cardsOrder.ts    |     100 |      100 |     100 |     100 | 
+ isFlush.ts       |     100 |      100 |     100 |     100 | 
+ isFourOfKind.ts  |     100 |      100 |     100 |     100 | 
+ isFullHouse.ts   |     100 |      100 |     100 |     100 | 
+ isOnePair.ts     |     100 |      100 |     100 |     100 | 
+ isRoyalFlush.ts  |     100 |      100 |     100 |     100 | 
+ isStraight.ts    |     100 |      100 |     100 |     100 | 
+ isThreeOfKind.ts |     100 |      100 |     100 |     100 | 
+ isTwoPair.ts     |     100 |      100 |     100 |     100 | 
+------------------|---------|----------|---------|---------|-------------------
+Test Suites: 1 passed, 1 total
+Tests:       46 passed, 46 total
+Snapshots:   0 total
+Time:        3.303 s, estimated 4 s
+Ran all test suites.
+PS C:\Users\Tim\poker-challenge-ts> 
+```
+
+
+
 ## Extensions
 
 ### ESLint
