@@ -22,14 +22,6 @@ To run the code whilst developing, use the following command:
 yarn start
 ```
 
-## Testing the code
-
-To run the [Jest](https://jestjs.io/) unit test, use the following command:
-
-```bash
-yarn test
-```
-
 ### Example Run
 ```
 PS C:\Users\Tim\poker-challenge-ts> npm run start
@@ -45,6 +37,13 @@ Player2: 237
 PS C:\Users\Tim\poker-challenge-ts> 
 ```
 
+## Testing the code
+
+To run the [Jest](https://jestjs.io/) unit test, use the following command:
+
+```bash
+yarn test
+```
 
 ```
 PS C:\Users\Tim\poker-challenge-ts> npm run test
